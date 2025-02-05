@@ -1,0 +1,39 @@
+.header{
+    background-color:rgb(8, 43, 95);
+    width: 100%;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar ul li{
+    display: inline-block;
+    margin: 10px;
+    list-style: none;
+    padding: 15px;
+    background-color: white;
+  }
+  .navbar ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  .navbar ul{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .cont{
+    display: inline-block;
+  }
+  .lap{
+    width: 30%;
+    margin-left: 50px;
+  }
+  input{
+    border-radius: 50px;
+    padding: 10px 20px;
+  }
+  .container{
+    border: 2px solid black;
+    padding: 10px 5px;
+  }
